@@ -4,7 +4,7 @@ const sleep = util.promisify(setTimeout)
 module.exports = {
   async taskOne() {
     try {
-      throw new Error('Problem with server network')
+    //   throw new Error('Problem with server network')
       await sleep(4000)
 
       return 'ONE VALUE'
